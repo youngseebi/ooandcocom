@@ -35,6 +35,7 @@ a {
     max-height: 90%;
     margin: auto;
     text-align: center;
+    padding: 22px;
 }
 
 
@@ -58,7 +59,17 @@ a {
     margin-bottom: 22px;
 }
 
-.box h2 {
+.footer {
+    width: 100%;
+    height: auto;
+    position: absolute;
+    bottom: 0;
+    padding: 22px;
+    text-align: center;
+    line-height: 1.2em;
+}
+
+.footer h2 {
     font-size: 0.7em;
     opacity: 0.6;
 }
