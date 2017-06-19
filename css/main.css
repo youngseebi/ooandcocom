@@ -28,6 +28,11 @@ a {
     color: hotpink;
 }
 
+h3 {
+    font-family: 'Roboto Mono', monospace;
+    font-size: small;
+   } 
+
 .box {
     width: 100%;
     max-width: 560px;
