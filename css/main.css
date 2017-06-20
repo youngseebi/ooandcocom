@@ -10,6 +10,7 @@
 
 /* [==] FONTS [==]*/
 @import url('https://fonts.googleapis.com/css?family=Lato:100,300,400,500');
+@import url('https://fonts.googleapis.com/css?family=Libre+Baskerville');
 
 /*
  * [==] General [==]
@@ -29,7 +30,7 @@ a {
 }
 
 h3 {
-    font-family: 'Roboto Mono', monospace;
+    font-family: 'Libre Baskerville', serif;
     font-size: small;
    } 
 
