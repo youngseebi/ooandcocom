@@ -1,5 +1,6 @@
 /* www.alsina.xyz | Alchemically bonded by Sebastian Alsina (@youngseebi) */
 
+
 /* [==] COLORS [==]
  * 1:
  * 2:
@@ -9,8 +10,13 @@
 
 
 /* [==] FONTS [==]*/
+<<<<<<< HEAD
 @import url('https://fonts.googleapis.com/css?family=Lato:100,300,400,500');
 @import url('https://fonts.googleapis.com/css?family=Libre+Baskerville');
+@import url('https://fonts.googleapis.com/css?family=Bentham');
+=======
+
+>>>>>>> origin/master
 
 /*
  * [==] General [==]
@@ -22,28 +28,31 @@ body {
     width: 100%;
     background-color: black;
     color: white;
-    font-family: 'Lato', sans-serif;
+    font-family: 'Bentham', serif;
+    font-size: small;
 }
 
 a {
     color: hotpink;
 }
 
+<<<<<<< HEAD
 h3 {
-    font-family: 'Libre Baskerville', serif;
+    font-family: 'Bentham', serif;
     font-size: small;
    } 
 
+=======
+>>>>>>> origin/master
 .box {
     width: 100%;
-    max-width: 560px;
+    max-width: 400px;
     height: auto;
     max-height: 90%;
     margin: auto;
     text-align: center;
     padding: 22px;
 }
-
 
 .box img {
     width: 100%;
@@ -58,11 +67,12 @@ h3 {
     font-weight: 100;
 }
 
-
 .box h1 {
-    font-size: 1.3em;
+    font-size: 1.5em;
     font-weight: 500;
     margin-bottom: 22px;
+    line-height: 1.5em;
+    text-transform: uppercase;
 }
 
 .footer {
@@ -76,8 +86,8 @@ h3 {
 }
 
 .footer h2 {
-    font-size: 0.7em;
-    opacity: 0.6;
+    font-size: 1em;
+    opacity: 0.8;
 }
 
 @media only screen and (min-device-width: 320px) and (max-width: 768px) {}
